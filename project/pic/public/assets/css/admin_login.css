@@ -1,0 +1,46 @@
+.container{
+    background-color:lightyellow;
+    width: 40%;
+    height: 300px;
+    margin: auto; 
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    
+}
+.body{
+    color: rgb(145, 123, 0);
+}
+.logo{
+    position: absolute;
+    left: 33%;
+    top: 33%;
+    size: 10px;
+    opacity: 0.6;
+}
+
+.title{
+    background-color: blue;
+    color: white;
+	text-align: center;
+	margin-top: -30px;
+	padding: 0px;
+}
+.footer{
+    background-color: blue;
+    color: white;
+	text-align: center;
+	margin-top: 50px;
+    padding: 0px;
+    
+    font-family:  cursive;
+    }
+
+.form{
+    padding-left: 40px;
+    padding-top: 40px;
+    align-self: auto;
+}
+.log{
+ align-content: center;
+}

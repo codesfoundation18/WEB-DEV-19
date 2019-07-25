@@ -1,11 +1,12 @@
 .container{
     background-color:lightyellow;
     width: 40%;
-    height: 300px;
+    min-height: 300px;
     margin: auto; 
     position: absolute;
     left: 30%;
     top: 20%;
+    padding-bottom: 50px;
     
 }
 .body{
@@ -27,12 +28,14 @@
 	padding: 0px;
 }
 .footer{
+    width: 100%;
     background-color: blue;
     color: white;
 	text-align: center;
 	margin-top: 50px;
     padding: 0px;
-    
+    position: absolute;
+    bottom: 0;
     font-family:  cursive;
     }
 

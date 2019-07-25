@@ -1,7 +1,7 @@
 <?php 
 
 /**
- * Route main server requests here
+ * A basic routing system
  */
 
 if(isset($_GET['page']) && ($_GET['page'] == 'admin')) 

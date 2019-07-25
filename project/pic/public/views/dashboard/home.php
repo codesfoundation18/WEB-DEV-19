@@ -18,18 +18,17 @@ require_once '../../../core/config.php';
 <html>
 <head>
 	<title>Dashboard</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/w3.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/w3.css">
 </head>
 <body>
-	<h2 class="w3-card-4 w3-red w3-padding">
-	Welcome <?php echo $adminData['name']; ?> to the dashboard. <br> 
-	Nice to have you back
-
-
-	</h2>
-
-	<p>
-		<a href="logout.php">Logout</a>
-	</p>
+	<div class="w3-row">
+		<h2 class="w3-margin w3-card-4 w3-blue w3-padding-64 w3-round-large w3-opacity">
+			<span class="w3-inline-block w3-margin-left">
+				Welcome <?php echo ucfirst($adminData['name']); ?> to the dashboard.  
+				Nice to have you back!
+			</span>
+			<a class="w3-right w3-button w3-margin-right" href="logout.php">Logout</a>
+		</h2>
+	</div>
 </body>
 </html>
